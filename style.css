@@ -3,4 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    color: #FFE5E5;
+}
+body {
+    background-color: #756AB6;
+}
+
+.app {
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+}
+
+h1 {
+    
 }
