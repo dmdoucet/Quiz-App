@@ -50,6 +50,24 @@ body {
 }
 
 .btn:hover {
-    background: #FFE5E5;
+    background: #E0AED0;
+    color: #AC87C5;
+}
+
+#next-btn {
+    background-color: #AC87C5;
+    border: 1px solid #E0AED0;
+    border-radius: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    width: 25%;
+    padding: .5rem;
+    margin: 1.5rem auto 0;
+    cursor: pointer;
+    display: block;
+}
+
+#next-btn:hover {
+    background: #E0AED0;
     color: #AC87C5;
 }
