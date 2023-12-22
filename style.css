@@ -47,11 +47,12 @@ body {
     text-align: center;
     cursor: pointer;
     transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .btn:hover {
     background: #E0AED0;
-    color: #AC87C5;
+    color: #756AB6;
 }
 
 #next-btn {
@@ -64,10 +65,12 @@ body {
     padding: .5rem;
     margin: 1.5rem auto 0;
     cursor: pointer;
-    display: block;
+    display: none;
+    transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #next-btn:hover {
     background: #E0AED0;
-    color: #AC87C5;
+    color: #756AB6;
 }
