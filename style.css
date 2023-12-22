@@ -74,3 +74,11 @@ body {
     background: #E0AED0;
     color: #756AB6;
 }
+
+.correct {
+    background: #69c390;
+}
+
+.incorrect {
+    background: #ed6a6a;
+}
