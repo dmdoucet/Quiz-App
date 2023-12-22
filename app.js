@@ -148,6 +148,13 @@ function selectAnswer(e){
     nextButton.style.display = 'block';
 }
 
+function showScore() {
+    resetState();
+    questionElement.innerHTML = `You Got ${score} Out Of ${questions.length} Correct!`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = 'block';
+}
+
 function handleNextButton() {
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
